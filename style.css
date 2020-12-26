@@ -1,0 +1,156 @@
+/* Body */
+body {
+    font-family: "Montserrat",sans-serif;
+    padding-top: 4%;
+    background-color: #fcf1f1;
+    text-align: center;
+    align-content: center;
+}
+
+.colored-section{
+    padding-top: 1%;
+    padding-bottom: 1%;
+    background-color: #ffd5cd;
+}
+
+.section-heading{
+    padding: 1%;
+    font-weight: bold;
+}
+
+/* Buttons */
+.btn-outline-dark {
+    color: brown;
+    border-color:brown;
+}
+  
+.btn-outline-dark:hover {
+    color: #fff;
+    background-color: brown;
+    border-color: brown;
+}
+.headbuttons {
+    margin: 5% 3% 5% 0;
+    font-size: 1rem;
+}
+/* .btn-primary
+{   
+    color: black;
+    border-color: gray;
+    background-color:#f9813a ;
+}
+.btn-primary:hover{
+    border-color: gray;
+    background-color: #1a1c20;
+} */
+
+/* Topmost Section */ 
+.section1 {
+    background-color:#f9813a ;
+}
+.navbar {
+    background-color: #1a1c20;
+}
+.navbar-brand{
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+.navbar-nav{
+    padding: 0 30px;
+}
+.head-container{
+    margin-top: 2%;
+}
+.big-heading{
+    font-family: "Montserrat-Black",sans-serif;
+    font-size: 2.9rem;
+    font-weight: 900;
+}
+.bannerimg {
+    height: 100%;
+    width: 100%;
+}
+.bannerquote{
+    padding: 5%;
+    align-content: center;
+}
+
+/* Section 2 :features */
+.feature-title {
+    font-size: 1.3rem;
+    font-weight: bold;
+} 
+.feature-box {
+    padding: 2% 5%;
+}
+.icon{
+    color: #f9813a;
+    margin-bottom: 1rem;
+}
+.icon:hover {
+    color: rgb(202, 152, 42);
+}
+
+/* Section 3: Adopt */
+#adopt{
+    padding-top: 4%;
+    padding-bottom: 4%;
+}
+.adopt-heading {
+    color: brown;
+    font-weight: bold;
+}
+.carousel-item{
+    padding: 0 10%;
+}
+.card{
+    margin: 0 5%;
+}
+.card-header{
+    background-color: brown;
+    color: white;
+}
+.adoption-text {
+    padding: 1%;
+    font-size: 1.1rem;
+    line-height: 1.5;
+}  
+.adoption-column {
+    padding: 1% 1%;
+}
+
+/*Section 4:Rehome */
+.rehome-section{
+    background-image: url(bggif.gif);
+    text-align: left;
+    padding: 6%;
+}
+.rehome-heading{
+    padding-left: 0;
+}
+.form-control:focus {
+    border-color: #f9813a;
+    box-shadow: 0 0 0 0.2rem rgba(151, 153, 155, 0.25);
+}
+.form-control:hover{
+    background-color: #ffb386;
+}
+
+/* Footer :Contact us */
+.social-icon {
+    margin: 1% 0.8%;
+}  
+.footer {
+    padding: 1%;
+    font-size:0.8rem;
+    background-color: #1a1c20;
+    color: grey;
+}  
+
+@media (max-width: 1028px) {
+    .rehome-section{
+        background-image: none;
+    text-align: left;
+    padding: 6%;
+}
+}
